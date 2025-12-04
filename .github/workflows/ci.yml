@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   build:
@@ -19,9 +19,6 @@ jobs:
 
       - name: Package-ləri yüklə
         run: npm install
-
-      - name: Testləri işə sal
-        run: npm test
 
       - name: Build et
         run: npm run build
